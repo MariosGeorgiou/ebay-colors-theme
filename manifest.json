@@ -1,6 +1,6 @@
 {
   "name": "eBay Colors Theme",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Fill you browser with colors with this eBay theme.",
   "manifest_version": 2,
   "theme": {
@@ -8,7 +8,8 @@
       "theme_frame": "images\/theme_frame.png",
       "theme_toolbar": "images\/theme_toolbar.png",
       "theme_tab_background": "images\/theme_tab_background.png",
-      "theme_ntp_background": "images\/theme_ntp_background.png"
+      "theme_ntp_background": "images\/theme_ntp_background_without_logo.png",
+      "theme_ntp_attribution": "images\/theme_ntp_attribution.png"
     },
     "colors": {
       "frame": [51, 127, 211],
@@ -26,7 +27,7 @@
     },
     "properties": {
       "ntp_background_alignment": "bottom",
-      "ntp_background_repeat": "no-repeat"
+      "ntp_background_repeat": "repeat"
     }
   }
 }
